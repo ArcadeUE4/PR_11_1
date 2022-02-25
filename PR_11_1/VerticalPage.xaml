@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR_11_1.VerticalPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Start"> 
+            <Label Text="Имя: Александр"/>
+            <Label Text="Группа: ПКС - 31"/>
+            <Label Text="Увлечения: Люблю смотреть на котиков." />
+            <Image Source="http://www.hq-wallpapers.ru/wallpapers/13/hq-wallpapers_ru_animals_60063_1920x1200.jpg" Scale="0.25"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
